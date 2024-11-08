@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg" style="background-color: rgb(142, 223, 255);">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">Student Managment</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto d-flex justify-content-center">
+          <button type="button" class="btn btn-outline-primary me-2" routerLink="add">Add</button>
+          <button type="button" class="btn btn-outline-secondary me-2" routerLink="list">List</button>
+          <button type="button" class="btn btn-outline-success" routerLink="edit">Edit</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
